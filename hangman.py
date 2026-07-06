@@ -30,9 +30,8 @@ while chance > 0 and "_" in display:
     guess = input("Enter a letter: ").lower()
 
     # Check valid input
-    if len(guess) != 1 or not guess.isalpha():
-        print("Please enter only one alphabet.")
-        continue
+    if len(guess) > 1:
+    print("Enter only one letter.")
 
     # Already guessed
     if guess in letters:
