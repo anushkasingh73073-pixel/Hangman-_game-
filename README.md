@@ -18,3 +18,7 @@ This is a simple Hangman Game made using Python.
 
 ## Author
 Anushka Singh
+
+## Screenshot
+
+![Game Screenshot](screenshot.png)
