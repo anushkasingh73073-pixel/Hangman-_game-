@@ -32,6 +32,7 @@ while chance > 0 and "_" in display:
     # Check valid input
     if len(guess) > 1:
     print("Enter only one letter.")
+    continue 
 
     # Already guessed
     if guess in letters:
