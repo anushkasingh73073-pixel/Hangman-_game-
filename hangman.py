@@ -1,8 +1,8 @@
 import random
 
 # Word list
-words = ["earth", "mars", "jupiter", "saturn",
-         "uranus", "neptune", "mercury", "venus"]
+words =   ["EARTH","MARS","JUPITER","SATURN","VENUS",
+"NEPTUNE","URANUS"]
 
 # Random word selection
 word = random.choice(words)
@@ -27,7 +27,7 @@ while chance > 0 and "_" in display:
     print("Guessed letters:", " ".join(letters))
 
     # User input
-    guess = input("Enter a letter: ").lower()
+    guess = input("Enter a letter: ").upper()
 
     # Check valid input
     if len(guess) > 1:
